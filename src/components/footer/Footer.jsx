@@ -11,12 +11,13 @@ const Footer = () => {
           </p>
         </div>
         <div className={style.social}>
-          <i className="fa-brands fa-linkedin-in">
-            <a href="https://www.linkedin.com/in/danilo-cruz-8805a2213" target='_blank'></a>
-          </i>
-          <i className="fa-brands fa-github">
-            <a href="https://github.com/daansmyth" target='_blank'></a>
-          </i>
+          <a href="https://www.linkedin.com/in/danilo-cruz-8805a2213" target='_blank'>
+            <i className="fa-brands fa-linkedin-in"></i>
+          </a>
+
+          <a href="https://github.com/daansmyth" target='_blank'>
+            <i className="fa-brands fa-github"></i>
+          </a>
         </div>
       </div>
     </>
